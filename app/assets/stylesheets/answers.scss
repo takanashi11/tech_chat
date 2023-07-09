@@ -1,0 +1,100 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.show-main{
+  height:120vh;
+  background-color: #F2F2F3;
+  padding: 50px;
+}
+
+.show-sub{
+  background-color: #1C3667;
+  width: 900px;
+  height: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 50px ;
+}
+
+.show-subsub{
+  background-color: #FFFFFF;
+  width: 800px;
+  height: 900px;
+  margin: auto;
+  border-radius: 5px;
+  border: solid;
+}
+
+.show-contents-area{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.show-content1{
+  font-size: 30px;
+}
+
+.show-content{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.show-answers-area{
+ height:  400px;
+}
+
+.show-answers{
+  text-align: center;
+  padding: 20px;
+}
+
+.show-answer{
+ padding: 30px;
+}
+
+.show-answer textarea{
+  font-size: 20px;
+  height: 100px;
+  width: 600px;
+  border-radius: 5px;
+}
+.show-answer1 input{
+  font-size: 20px;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.show-answer2 input{
+  font-size: 20px;
+  margin-top: 30px;
+  width: 300px;
+  background-color: #1C3667;
+  color :white;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.coments-area{
+  height: 350px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.coment-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.coments{
+  height: 200px;
+  width: 600px;
+  background-color: #FFFFFF;
+  overflow: scroll;
+  overflow-x: hidden;
+}

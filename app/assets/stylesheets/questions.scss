@@ -1,0 +1,210 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header{
+  height: 65px;
+
+}
+
+
+.header-main{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 65px;
+  padding: 0 20px;
+  background-color: #1C3667;
+}
+
+
+ .header-left{
+  font-size: 23px;
+  letter-spacing: 1.8px;
+  color: #FFFFFF;
+  font-weight: 100;
+ }
+
+ .header-left a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ .header-right{
+  width: 80px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  text-align: center;
+ }
+
+ .header-right a {
+  line-height: 32px;
+  text-decoration: none;
+  color: #3A3736;
+  font-size: 16px;
+}
+
+
+.chat-area{
+  height: calc(100vh - 65px);
+  padding: 90px 0;
+  background-color: #F2F2F3;
+
+}
+
+.post-contents{
+ width: 700px;
+ margin: 0 auto;
+}
+
+.post-content{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+.comment{
+  width: 70px;
+  height: 100%;
+  background-color: #1C3667;
+  color: #FFFFFF;
+  border-radius: 5px 0 0 5px;
+}
+
+.comment__num {
+  width: 70px;
+  height: 38px;
+  margin: 20px auto 0;
+  line-height: 38px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.comment__unit {
+  width: 70px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.chat-main{
+  width: 630px;
+  padding: 10px 15px;
+  background-color: #FFFFFF;
+}
+
+.chat-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-title{
+  width: 500px;
+  font-size: 14px;
+}
+
+.chat-name{
+  font-size: 12px;
+  text-align: right;
+}
+
+.chat-bottom{
+  margin-top: 10px;
+}
+
+.chat-comments{
+  font-size: 12px;
+}
+
+.new-main{
+  height: calc(100vh - 65px);
+  padding-top: 80px;
+  background-color:#F2F2F3;
+}
+
+.form{
+ width: 700px;
+ height: 420px;
+ margin: 0 auto;
+}
+
+.form-top{
+  height: 45px;
+  width: 700px;
+  background-color: #1C3667;
+  border-radius: 5px 5px 0 0;
+}
+
+.form-main{
+  height: 340px;
+  width: 700px;
+  background-color: #FFFFFF;
+  padding: 40px 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.form-items{
+ 
+  width: 520px;
+  margin: 0 auto;
+}
+
+.form-items input{
+ height: 30px;
+ width: 100%;
+ 
+
+}
+.form-items-title{
+width: 100%;
+height: 100%;
+}
+
+.form-items-content{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.form-items-content textarea{
+  width: 100%;
+  height: 120px;
+}
+.form-items-name{
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.form-items-submit{
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.form-items-submit input{
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #1C3667;
+}
+
